@@ -29,7 +29,7 @@ button.ghost{background:#fff;color:var(--blue);border:1px solid var(--blue);bord
 </header>
 <main>
       <h1>Politique de confidentialité de MDING AI</h1>
-<div class="notice">Version provisoire du 16/11/2026, en cours de relecture juridique. Elle décrit le fonctionnement réel du service à cette date.</div>
+<div class="notice">Version provisoire du 21/11/2026, en cours de relecture juridique. Elle décrit le fonctionnement réel du service à cette date.</div>
 <article>
   <p>Cette politique s’applique à l’application mobile MDING AI, à ses pages web et à l’assistant public du site mdinggn.com.
     Le responsable du traitement est <b>MDINGGN</b>, Lambanyi, Conakry (Guinée).
@@ -42,6 +42,8 @@ button.ghost{background:#fff;color:var(--blue);border:1px solid var(--blue);bord
     <li><b>Appareils connectés</b> : nom de l’appareil et date de dernière utilisation, pour que vous puissiez les déconnecter.</li>
     <li><b>Compte MDING</b> : si vous vous connectez avec votre compte MDING ou le reliez, l’identifiant client que MDING attribue à MDING AI, votre nom et l’accès autorisé (chiffré). MDING ne nous transmet ni votre code, ni votre numéro complet, ni votre adresse e-mail.</li>
     <li><b>WhatsApp</b> : si vous reliez votre numéro WhatsApp ou créez votre compte depuis WhatsApp, votre numéro (chiffré) et les messages échangés avec MDING AI, gardés dans la conversation « WhatsApp » de votre compte.</li>
+    <li><b>Ma ferme (agent Agronome)</b> : uniquement si vous la remplissez ou partagez la position de votre champ, le pays, la région ou la position (chiffrées), les cultures, l’élevage, la surface, l’irrigation et le sol, utilisés seulement par l’agent Agronome ; et, si vous les demandez (« ALERTES OUI »), la date de votre accord pour les alertes météo sur WhatsApp, arrêtées à tout moment par « STOP ALERTES ».</li>
+    <li><b>Alertes de l’air (agent Environnement)</b> : uniquement si vous les demandez sur WhatsApp (« ALERTES OUI » avec l’agent Environnement), le lieu choisi (ville écrite ou position partagée, arrondie à environ 1 km et chiffrée), la date de votre accord et la dernière alerte envoyée ; arrêtées à tout moment par « STOP ALERTES AIR ». Une position partagée pour une simple question sur l’air n’est pas enregistrée.</li>
     <li><b>E-mails (Gmail, Outlook)</b> : uniquement si vous reliez votre boîte, l’accès autorisé (chiffré) et l’adresse de la boîte. Les e-mails non lus sont lus à votre demande pour en faire un résumé et ne sont pas conservés ; une réponse n’est envoyée qu’après votre relecture.</li>
     <li><b>Crédits MAC</b> : solde, historique des mouvements et, pour une recharge, le pack choisi, le montant et le numéro de paiement mobile (chiffré).</li>
     <li><b>Journaux de sécurité</b> : événements (connexion, suppression…) avec l’adresse IP, sans aucun contenu de conversation, conservés 90 jours.</li>
@@ -57,20 +59,30 @@ button.ghost{background:#fff;color:var(--blue);border:1px solid var(--blue);bord
 
   <h2>Services tiers</h2>
   <ul>
-    <li><b>Fournisseur d’intelligence artificielle (OpenAI)</b> : pour produire une réponse, votre message et le contexte nécessaire (historique récent et, selon vos réglages, souvenirs, extraits de documents, réglages du clone) lui sont transmis. Votre adresse e-mail et votre mot de passe ne le sont jamais.</li>
+    <li><b>Fournisseurs d’intelligence artificielle (OpenAI, Anthropic)</b> : pour produire une réponse, votre message et le contexte nécessaire (historique récent et, selon vos réglages, souvenirs, extraits de documents, réglages du clone) lui sont transmis. Votre adresse e-mail et votre mot de passe ne le sont jamais.</li>
     <li><b>Voix premium (ElevenLabs)</b> : uniquement si vous l’activez et y consentez, le texte des réponses à lire lui est transmis. La voix standard est produite par votre téléphone.</li>
-    <li><b>Dictée vocale</b> : réalisée par votre téléphone ; quand il ne peut pas le faire hors ligne, par le service de reconnaissance en ligne de votre téléphone (Google sur Android, Apple sur iPhone). Aucun enregistrement audio n’est envoyé à nos serveurs.</li>
+    <li><b>Dictée vocale</b> : la dictée standard est réalisée par votre téléphone (ou, s’il ne peut pas le faire hors ligne, par son service de reconnaissance en ligne : Google sur Android, Apple sur iPhone). La dictée premium et les notes vocales envoyées sur WhatsApp sont transmises à ElevenLabs pour être transcrites ; l’enregistrement n’est pas conservé après la transcription.</li>
     <li><b>Paiement (Djomy)</b> : lors d’une recharge, le montant, la référence et votre numéro de paiement mobile lui sont transmis ; nous ne recevons jamais vos codes de paiement.</li>
     <li><b>WhatsApp (Meta)</b> : les messages que vous échangez avec MDING AI dans WhatsApp transitent par la plateforme WhatsApp Business de Meta.</li>
+    <li><b>Open-Meteo et ISRIC SoilGrids</b> : pour les conseils et alertes de l’agent Agronome, le nom de votre région (pour la situer sur la carte) puis une position arrondie à environ 10 km, sans votre nom ni votre numéro, afin d’obtenir la météo, le climat et le sol du lieu ; pour l’agent Environnement, de la même façon, la qualité de l’air du lieu (particules fines, poussière, UV).</li>
     <li><b>Google et Microsoft</b> : uniquement si vous reliez Gmail ou Outlook, pour lire vos e-mails non lus et envoyer les réponses que vous validez.</li>
     <li><b>Hébergement (OVHcloud)</b> : nos serveurs et notre base de données.</li>
+  </ul>
+
+  <h2>Données de votre compte Google (Gmail) et Microsoft (Outlook)</h2>
+  <ul>
+    <li>L’utilisation et le transfert à toute autre application des informations reçues des API Google par MDING AI respectent les <a href="https://developers.google.com/terms/api-services-user-data-policy">Règles relatives aux données utilisateur des services d’API Google</a>, y compris les exigences d’utilisation limitée (« Limited Use »).</li>
+    <li>MDING AI accède à votre boîte (lecture des e-mails non lus récents et envoi d’une réponse) uniquement après votre autorisation sur la page de Google ou de Microsoft, et seulement pour les fonctions que vous utilisez : le résumé de vos e-mails que vous demandez et l’envoi d’une réponse que vous avez relue et validée.</li>
+    <li>Pour produire ce résumé, l’expéditeur, l’objet et un aperçu des e-mails concernés sont transmis à notre fournisseur d’intelligence artificielle, uniquement pour cette demande. Ces données ne sont pas conservées après le résumé, et elles ne sont jamais utilisées pour entraîner ou améliorer des modèles d’intelligence artificielle, ni les nôtres ni ceux de tiers.</li>
+    <li>Elles ne sont jamais utilisées pour de la publicité, jamais vendues, et ne sont lues par aucune personne de MDING, sauf avec votre accord explicite, pour la sécurité (enquête sur un abus) ou si la loi l’exige.</li>
+    <li>L’accès autorisé est gardé chiffré. Vous pouvez délier votre boîte à tout moment dans Paramètres › Mes e-mails (l’accès est alors révoqué et supprimé), ou retirer l’accès depuis votre compte Google (myaccount.google.com/permissions) ou Microsoft.</li>
   </ul>
 
   <h2>Conservation et suppression</h2>
   <p>Vos données sont conservées tant que votre compte existe. Vous pouvez supprimer à tout moment une conversation, un souvenir, un document ou une mission depuis l’application.
     La suppression du compte efface immédiatement toutes vos données privées. Les écritures de paiement et de crédits sont conservées sans lien avec votre compte, pour nos obligations comptables.</p>
   <p>Pour supprimer votre compte : dans l’application, <b>Paramètres › Supprimer mon compte</b>, ou en ligne sur
-    <a href="https://wa.mdinggn.com/compte/suppression">https://wa.mdinggn.com/compte/suppression</a>.</p>
+    <a href="https://ai-api.mdinggn.com/compte/suppression">https://ai-api.mdinggn.com/compte/suppression</a>.</p>
 
   <h2>Sécurité</h2>
   <p>Connexions chiffrées (HTTPS), contenus privés chiffrés en base, accès d’administration protégé par mot de passe et code e-mail. L’administration ne consulte jamais le contenu privé des comptes.</p>
